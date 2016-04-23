@@ -40,24 +40,89 @@
     <form>
     <div>
       <b>Стоимость</b>
-      <p><input id="#" type="range" min="0" max="15000" value="0"></p>
-      <p>От 1 до 15000</p>
+      <p><input id="minprice" type="range" min="0" max="15000" value="0"></p>
+      <p><input id="maxprice" type="range" min="0" max="15000" value="15000"></p>
+      <div class="category_price">
+        <span>От</span>
+        <input type="text" name="price_form2.1" value="0" id="minprice">
+        <span>до</span>
+        <input type="text" name="price_form2.2" value="15000" id="maxprice">
     </div>
     <div>
     <b>Сетка:</b>
-      <p><input name="collection" type="radio" value="adaptiv" checked> Адаптивная</p>
-      <p><input name="collection" type="radio" value="fix"> Фиксированная</p>
-      <p><input name="collection" type="radio" value="no_fix"> Резиновая</p>
+      <p><input name="collection_adaptiv" type="checkbox" value="adaptiv" id="#" checked> Адаптивная</p>
+      <p><input name="collection_fix" type="checkbox" value="fix" id="#"> Фиксированная</p>
+      <p><input name="collection_no_fix" type="checkbox" value="no_fix" id="#"> Резиновая</p>
     </div>
     <div>
     <b>Особенности:</b>
-      <p><input name="collection" type="radio" value="adaptiv">Слайдер</p>
-      <p><input name="collection" type="radio" value="fix">Блок преимуществ</p>
-      <p><input name="collection" type="radio" value="no_fix">Новости</p>
-      <p><input name="collection" type="radio" value="fix">Галерея</p>
-      <p><input name="collection" type="radio" value="no_fix">Корзина</p>
+      <p><input name="collection_slaider" type="checkbox" value="slaider" id="#" checked>Слайдер</p>
+      <p><input name="collection_preference" type="checkbox" value="preference" id="#">Блок преимуществ</p>
+      <p><input name="collection_news" type="checkbox" value="news" id="#" checked>Новости</p>
+      <p><input name="collection_galary" type="checkbox" value="galary" id="#">Галерея</p>
+      <p><input name="collection_buy-block" type="checkbox" value="buy-block" id="#">Корзина</p>
     </div>
       <p><input type="submit" value="Показать"></p>
     </form>
+    <div>
+      <div>
+      <b>Сортировка:</b>
+      </div>
+      <div>
+        <ul class_assortment>
+          <li class="assortment_price">
+            <a href="#">по цене</a>
+          </li>
+          <li class="assortment_type">
+            <a href="#">по типу</a>
+          </li>
+          <li class="assortment_functional">
+            <a href="#">по функционалу</a>
+          </li>
+        </ul>
+      </div>
+       <div>
+         <div>
+           <a href="#">
+           <img src="#.gif" width="15" hight="15" alt="треугольник_1">
+           </a>
+         </div>
+         <div>
+           <a href="#">
+           <img src="#.gif" width="15" hight="15" alt="треугольник_2">
+           </a>
+         </div>
+       </div>
+    </div>
+    <div class="catalog">
+      
+    </div>
+    <footer>
+      <div>
+       <div>
+         <ul class="social">
+          <li class="icon_vk">
+            <a href="#">
+            <img src="vk.png" width="60" hight="60" alt="Вконтакте">
+            </a>
+          </li>
+          <li class="icon_twitter">
+           <a href="#">
+           <img src="twitter.png" width="60" hight="60" alt="Твиттер">
+           </a>
+          </li>
+          <li class="icon_instagram">
+           <a href="#">
+           <img src="instagram.png" width="60" hight="60" alt="instagram">
+           </a>
+          </li>
+       </ul>
+       </div>
+        <div class="social">
+           <h2>Давайте дружить, это выгодно!</h2>
+           <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
   </body>
   </html>
