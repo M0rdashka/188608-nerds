@@ -7,162 +7,157 @@
   <body>
     <header class="main-header">
       <div class="container">
-          <div class="index-logo">
-            <a href="ссылка на главную">
-              <img src="img/index-logo.png" width="139" hight="56" alt="Нёрдс">
-            </a>
-          </div>
-          <nav class="main-navigation">
-            <ul>
-              <li class="active">
-                <a href="#">Студия</a>
-              </li>
-              <li>
-                <a href="#">Клиенты</a>
-              </li>
-              <li>
-                <a href="#">Магазин</a>
-              </li>
-              <li>
-                <a href="#">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="buy-block">
-            <img src="img/.icon-basket.png" width="15" hight="15" alt="Корзина">
+        <div class="index-logo">
+          <a href="ссылка на главную">
+            <img src="img/index-logo.png" width="139" hight="56" alt="Нёрдс">
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li class="active">
+              <a href="#">Студия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="buy-block">
             <a class="buy" href="#">Корзина</a>
-          </div>
+        </div>
       </div>
     </header>
-    <main class="container">
-    <div>
-      <h1>Добро пожаловать в магазин готовых макетов</h1>
-    </div>
-    <form action="#">
-    <div>
-      <section class="range-slider">
-        <b class="title-form">Стоимость</b>
-        <input type="range" min="0" max="15000" step="0.5" value="5">
-        <input type="range" min="0" max="15000" step="0.5" value="15000">
-      </section>
-      <div class="category_price">
-        <label>От</label>
-        <input type="text" name="price_form2.1" value="0" id="minprice">
-        <label>до</label>
-        <input type="text" name="price_form2.2" value="15000" id="maxprice">
+      <main class="container">
+        <div>
+          <h1>Добро пожаловать в магазин готовых макетов</h1>
+        </div>
+      <form action="/">
+        <div>
+          <section class="range-slider">
+            <b class="title-form">Стоимость</b>
+            <input type="range" min="0" max="15000" step="0.5" value="5">
+            <input type="range" min="0" max="15000" step="0.5" value="15000">
+          </section>
+        <div class="category_price">
+          <label>От</label>
+            <input type="text" name="price_form2.1" value="0" id="minprice">
+          <label>до</label>
+            <input type="text" name="price_form2.2" value="15000" id="maxprice">
+        </div>
+        <div>
+          <b>Сетка:</b>
+          <label><input name="collection_adaptiv" type="checkbox" value="adaptiv" id="#" checked> Адаптивная</label>
+          <label><input name="collection_fix" type="checkbox" value="fix" id="#"> Фиксированная</label>
+          <label><input name="collection_no_fix" type="checkbox" value="no_fix" id="#"> Резиновая</label>
+        </div>
+        <div>
+          <b>Особенности:</b>
+          <label><input name="collection_slaider" type="checkbox" value="slaider" id="#" checked>Слайдер</lavel>
+          <label><input name="collection_preference" type="checkbox" value="preference" id="#">Блок преимуществ</label>
+          <label><input name="collection_news" type="checkbox" value="news" id="#" checked>Новости</label>
+          <label><input name="collection_galary" type="checkbox" value="galary" id="#">Галерея</label>
+          <label><input name="collection_buy-block" type="checkbox" value="buy-block" id="#">Корзина</label>
+        </div>
+          <input type="submit" value="Показать">
+      </form>
+      <div>
+        <div>
+          <b>Сортировка:</b>
+        </div>
+        <div>
+          <ul class="assortment">
+            <li class="assortment_price">
+              <a href="#">по цене</a>
+            </li>
+            <li class="assortment_type">
+              <a href="#">по типу</a>
+            </li>
+            <li class="assortment_functional">
+              <a href="#">по функционалу</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div>
+            <a href="#"></a>
+          </div>
+          <div>
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog" width="580" hight="1050">
+        <div class="item">
+          <a href="#">
+            <img src="img/article1_1.png" width="240" hight="240" alt="article1_1">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article2_1.png" width="240" hight="240" alt="article2_1">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article1_2.png" width="240" hight="240" alt="article1_2">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article2_2.png" width="240" hight="240" alt="article2_2.png">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article1_3.png" width="240" hight="240" alt="article1_3">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="img/article2_3.png" width="240" hight="242" alt="article2_3">
+          </a>
+        </div>
       </div>
       <div>
-        <b>Сетка:</b>
-        <label><input name="collection_adaptiv" type="checkbox" value="adaptiv" id="#" checked> Адаптивная</label>
-        <label><input name="collection_fix" type="checkbox" value="fix" id="#"> Фиксированная</label>
-        <label><input name="collection_no_fix" type="checkbox" value="no_fix" id="#"> Резиновая</label>
-      </div>
-      <div>
-        <b>Особенности:</b>
-        <label><input name="collection_slaider" type="checkbox" value="slaider" id="#" checked>Слайдер</lavel>
-        <label><input name="collection_preference" type="checkbox" value="preference" id="#">Блок преимуществ</label>
-        <label><input name="collection_news" type="checkbox" value="news" id="#" checked>Новости</label>
-        <label><input name="collection_galary" type="checkbox" value="galary" id="#">Галерея</label>
-        <label><input name="collection_buy-block" type="checkbox" value="buy-block" id="#">Корзина</label>
-      </div>
-        <input type="submit" value="Показать">
-    </form>
-    <div>
-      <div>
-        <b>Сортировка:</b>
-      </div>
-      <div>
-        <ul class="assortment">
-          <li class="assortment_price">
-            <a href="#">по цене</a>
-          </li>
-          <li class="assortment_type">
-            <a href="#">по типу</a>
-          </li>
-          <li class="assortment_functional">
-            <a href="#">по функционалу</a>
-          </li>
-        </ul>
-      </div>
-       <div>
-         <div>
-           <a href="#">
-             <img src="img/.icon-down-dir.png" width="11" hight="10" alt="triangle_1">
-           </a>
-         </div>
-         <div>
-           <a href="#">
-             <img src="img/.icon-up-dir.png" width="11" hight="10" alt="triangle_2">
-           </a>
-         </div>
-       </div>
-    </div>
-    <div class="catalog" width="580" hight="1050">
-      <div class="item">
-        <a href="#">
-          <img src="img/article1_1.png" width="240" hight="240" alt="article1_1">
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/article2_1.png" width="240" hight="240" alt="article2_1">
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/article1_2.png" width="240" hight="240" alt="article1_2">
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/article2_2.png" width="240" hight="240" alt="article2_2.png">
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/article1_3.png" width="240" hight="240" alt="article1_3">
-        </a>
-      </div>
-      <div class="item">
-        <a href="#">
-          <img src="img/article2_3.png" width="240" hight="242" alt="article2_3">
-        </a>
-      </div>
-    </div>
-    <div>
-      <div class="tab_menu">
+        <div class="tab_menu">
           <div class="next_tab">
             <a href="#">следующая</a>
           </div>
-       </div>
-          <div class="map">
-            <img src="img/map_contacts.png" width="1199" hight="416" alt="map_contacts">
-          </div>
+        </div>
+      <div class="map">
+        <img src="img/map_contacts.png" width="1199" hight="416" alt="map_contacts">
+      </div>
     </div>
     <footer>
       <div>
-       <div>
-         <ul class="social">
-          <li class="icon_vk">
-            <a href="#">
-             <img src="img/circle.png" width="62" hight="62" alt="Вконтакте">
-            </a>
-          </li>
-          <li class="icon_twitter">
-            <a href="#">
-             <img src="img/circle.png" width="62" hight="62" alt="Твиттер">
-            </a>
-          </li>
-          <li class="icon_instagram">
-           <a href="#">
-            <img src="img/circle.png" width="62" hight="62" alt="instagram">
-           </a>
-          </li>
-       </ul>
-       </div>
+        <div>
+          <ul class="social">
+             <li class="icon_vk">
+               <a href="#">
+                 <img src="img/circle.png" width="62" hight="62" alt="Вконтакте">
+               </a>
+             </li>
+             <li class="icon_twitter">
+               <a href="#">
+                 <img src="img/circle.png" width="62" hight="62" alt="Твиттер">
+               </a>
+             </li>
+             <li class="icon_instagram">
+               <a href="#">
+                 <img src="img/circle.png" width="62" hight="62" alt="instagram">
+               </a>
+             </li>
+          </ul>
+        </div>
         <div class="social">
-           <h2>Давайте дружить, это выгодно!</h2>
-           <p>Скидка 10% для друзей из социальных сетей.</p>
+          <h2>Давайте дружить, это выгодно!</h2>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
         </div>
       </div>
     </footer>
