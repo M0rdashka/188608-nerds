@@ -1,0 +1,23 @@
+body {
+font-size: 10px Roboto;
+color: #696969;
+line-height: 15px;
+}
+
+h1 {
+font-size: 25px Roboto solid;
+color: #000;
+line-height: 15px;
+}
+
+h2 {
+font-size: 20px Roboto solid;
+color: #000;
+line-height: 15px;
+}
+b {
+font-size: 12px Roboto;
+color: #000;
+line-height: 15px;
+text-transform: uppercase;
+}
