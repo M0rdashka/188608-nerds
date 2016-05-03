@@ -3,23 +3,23 @@ body {
   line-height: 22px;
   color: #696969;
   font-weight: normal;
-  font-family: Roboto arial;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 h1 {
-  font-size: 36px Roboto solid;
+  font-size: 36px;
   line-height: 36px;
   color: #000;
   font-weight: normal;
-  font-family: Roboto arial;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 h2 {
-  font-size: 36px 
+  font-size: 36px; 
   line-height: 36px;
   color: #000;
   font-weight: normal;
-  font-family: Roboto arial;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 b {
@@ -27,5 +27,5 @@ b {
   line-height: 30px;
   color: #000;
   text-transform: uppercase;
-  font-family: Roboto arial;
+  font-family: Roboto, Arial, sans-serif;
 }
