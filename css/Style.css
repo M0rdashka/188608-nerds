@@ -29,3 +29,39 @@ b {
   text-transform: uppercase;
   font-family: Roboto, Arial, sans-serif;
 }
+.main_header {
+  width: 1200px;
+  height: 56px;
+  margin: 0px auto;
+  background:#eee;
+}
+.index_logo {
+  margin-left: 160px;
+  float:left;
+}
+.main_navigation {
+  width: 740;
+  min-height: 56px; 
+  background:#eee;
+  text-align: center; 
+}
+.main_navigation ul li { 
+  list-style: none;
+  display: inline-block;
+}
+.main_navigation ul li a{ 
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.buy_block a{ 
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase; 
+  float: right;
+  min-height: 56px; 
+  text-align: center;
+  margin-top: -56px;
+}
