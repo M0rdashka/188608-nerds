@@ -65,3 +65,26 @@ b {
   text-align: center;
   margin-top: -56px;
 }
+.slider {
+  width: 338px;
+  height: 319px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+.slider input {
+  display: none;
+}
+ 
+.more_info {
+  width: 240px;
+  height: 38px;
+  background: #ff3344;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+  block: left;
+  
+} 
