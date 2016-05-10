@@ -33,37 +33,46 @@ b {
   width: 1200px;
   height: 56px;
   margin: 0px auto;
-  background:#eee;
+  background: #eee;
 }
 .index_logo {
   margin-left: 160px;
-  float:left;
+  float: left;
 }
 .main_navigation {
-  width: 740;
+  width: 740px;
   min-height: 56px; 
-  background:#eee;
+  background: #eee;
   text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  float:left;
 }
 .main_navigation ul li { 
   list-style: none;
   display: inline-block;
 }
-.main_navigation ul li a{ 
+.main_navigation ul li a { 
   text-decoration: none;
   font-size: 13px;
   text-align: center;
   text-transform: uppercase;
   margin-left: 20px;
+  color: black;
 }
-.buy_block a{ 
+.buy_block a { 
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase; 
   float: right;
-  min-height: 56px; 
   text-align: center;
-  margin-top: -56px;
+  margin-top: 16px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+  margin-left: 0px;
+  line-height: 21px;
+  color: black;  
 }
 .slider {
   width: 338px;
@@ -85,6 +94,5 @@ b {
   text-align: center;
   padding-top: 15px;
   text-decoration: none;
-  block: left;
-  
+  block: left; 
 } 
