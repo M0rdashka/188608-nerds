@@ -30,8 +30,8 @@ b {
   font-family: Roboto, Arial, sans-serif;
 }
 .main_header {
-  width: 1200px;
-  height: 56px;
+  width: auto;
+  height: 62px;
   background: #eee;
 }
 .index_logo {
@@ -74,10 +74,10 @@ b {
   color: black;  
 }
 .slider {
-  width: 1200px;
+  width: auto;
   height: 319px;
   position: relative;
-  display: inline-block;
+  display: block;
   background: #eee;
 }
 .slider input label{
@@ -122,21 +122,67 @@ b {
   display: inline-block;
   width: 5px;
   height: 5px;
-  border-radius: 8px;
-  width: 5px;
+  border-radius: 8px;  
+}
+.order {
+  width: 140px;
+  height: 38px;
+  background: #ff3344;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  block: left; 
+  margin-top: 200px;
+} 
+.services {
+  display: inline-block;
+  width: auto;
+  height: 300px;
+}
+.services div {
+  margin-left: 80px;
+  margin-top: 80px;
+  float: left;
+  width: 240px;
+  height: 299px;
+}
+.left_nerds {
+  display: inline-block;
+  width: 760px;
+  block: left;
+  margin-top: 80px;
+  margin-left: 160px;
+  margin-right: 65px;
+}
+.right_nerds {
+  display: inline-block;
+  width: auto;
+  block: left;
+  margin-top: 80px;
 }
 .contacts {
-  width: 1200px;
+  width: auto;
   height: 168px;
-  margin: auto;
   display: block;
   border-top: 2px solid;
   border-bottom: 2px solid;
   margin-top: 20px;
   margin-bottom: 20px;
- }
+  margin-left: 160px;
+  margin-right: 160px;
+}
 .contacts a {
   block: left;
   margin-left: 100px;
 }
-  
+.map {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 86px;
+}
+.footer {
+  width: auto;
+  height: 220px;
+}
