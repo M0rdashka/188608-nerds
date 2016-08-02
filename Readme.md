@@ -1,7 +1,7 @@
 ﻿# Личный проект «Нёрдс»
 
 * Студент: [Дарья Морозова](https://up.htmlacademy.ru/htmlcss/13/user/188608).
-* Наставник: [Антон Конев](https://up.htmlacademy.ru/htmlcss/13/user/206748).
+* Наставник: [Евгений Котов](https://up.htmlacademy.ru/htmlcss/14/user/25083).
 
 
 ---
